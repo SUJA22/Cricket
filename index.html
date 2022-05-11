@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+       <title>Cricket</title>
+</head>
+<body>
+    <div class="container">
+    <div id="heading">
+    <h1>CRICKET 10</h1>
+    <hr>
+</div>
+    <div id="header">
+        <div class="">
+            <h2>TEAM 1</h2>
+            <h3>Score:<span id="score1"></span></h3>
+            <button id="hitbtn1">Hit 1</button>
+        </div>
+        <div>
+            <h2>Timer</h2>
+            <h2></h2>
+        </div>
+        <div class="">
+            <h2>TEAM 2</h2>
+            <h3>Score:<span id="score2"></span></h3>
+            <button id="hitbtn2">Hit 2</button>
+        </div>
+    </div>
+    <hr>
+    <div id="main">
+        
+        <div class="" id="table1">
+            <h2>Team 1 Score Board</h2>
+            <table>
+                <tr>
+                <th>Team 1</th>
+                <th>B1</th>
+                <th>B2</th>
+                <th>B3</th>
+                <th>B4</th>
+                <th>B5</th>
+                <th>B6</th>
+            </tr>
+            <tr>
+                <th>Player 1</th>
+                <td id="111"></td>
+                <td id="112"></td>
+                <td id="113"></td>
+                <td id="114"></td>
+                <td id="115"></td>
+                <td id="116"></td>
+            </tr>
+            <tr>
+                <th>Player 2</th>
+                <td id="121"></td>
+                <td id="122"></td>
+                <td id="123"></td>
+                <td id="124"></td>
+                <td id="125"></td>
+                <td id="126"></td>
+            </tr>
+            <tr>
+                <th>Player 3</th>
+                <td id="131"></td>
+                <td id="132"></td>
+                <td id="133"></td>
+                <td id="134"></td>
+                <td id="135"></td>
+                <td id="136"></td>
+            </tr>
+            <tr>
+                <th>Player 4</th>
+                <td id="141"></td>
+                <td id="142"></td>
+                <td id="143"></td>
+                <td id="144"></td>
+                <td id="145"></td>
+                <td id="146"></td>
+            </tr>
+            <tr>
+                <th>Player 5</th>
+                <td id="151"></td>
+                <td id="152"></td>
+                <td id="153"></td>
+                <td id="154"></td>
+                <td id="155"></td>
+                <td id="156"></td>
+            </tr>
+            <tr>
+                <th>Player 6</th>
+                <td id="161"></td>
+                <td id="162"></td>
+                <td id="163"></td>
+                <td id="164"></td>
+                <td id="165"></td>
+                <td id="166"></td>
+            </tr>
+            <tr>
+                <th>Player 7</th>
+                <td id="171"></td>
+                <td id="172"></td>
+                <td id="173"></td>
+                <td id="174"></td>
+                <td id="175"></td>
+                <td id="176"></td>
+            </tr>
+            <tr>
+                <th>Player 8</th>
+                <td id="181"></td>
+                <td id="182"></td>
+                <td id="183"></td>
+                <td id="184"></td>
+                <td id="185"></td>
+                <td id="186"></td>
+            </tr>
+            <tr>
+                <th>Player 9</th>
+                <td id="191"></td>
+                <td id="192"></td>
+                <td id="193"></td>
+                <td id="194"></td>
+                <td id="195"></td>
+                <td id="196"></td>
+            </tr>
+            <tr>
+                <th>Player 10</th>
+                <td id="1101"></td>
+                <td id="1102"></td>
+                <td id="1103"></td>
+                <td id="1104"></td>
+                <td id="1105"></td>
+                <td id="1106"></td>
+            </tr>
+            </table>
+        </div>
+        <div id="score">
+            <button id="result">Generate Result</button>
+            <h4>Match won by:</h4>
+            <h1 id="winner"></h1>
+            <hr>
+            <h4>Man of the Match</h4>
+            <h3></h3>
+            <h3>
+            </h3>
+            <h3>Score:</h3>
+        </div>
+        <div id="table2">
+            <h2>Team 2 Score Board</h2>
+            <table>
+                <tr>
+                <th>Team 2</th>
+                <th>B1</th>
+                <th>B2</th>
+                <th>B3</th>
+                <th>B4</th>
+                <th>B5</th>
+                <th>B6</th>
+            </tr>
+            <tr>
+                <th>Player 1</th>
+                <td id="211"></td>
+                <td id="212"></td>
+                <td id="213"></td>
+                <td id="214"></td>
+                <td id="215"></td>
+                <td id="216"></td>
+            </tr>
+            <tr>
+                <th>Player 2</th>
+                <td id="221"></td>
+                <td id="222"></td>
+                <td id="223"></td>
+                <td id="224"></td>
+                <td id="225"></td>
+                <td id="226"></td>
+            </tr>
+            <tr>
+                <th>Player 3</th>
+                <td id="231"></td>
+                <td id="232"></td>
+                <td id="233"></td>
+                <td id="234"></td>
+                <td id="235"></td>
+                <td id="236"></td>
+            </tr>
+            <tr>
+                <th>Player 4</th>
+                <td id="241"></td>
+                <td id="242"></td>
+                <td id="243"></td>
+                <td id="244"></td>
+                <td id="245"></td>
+                <td id="246"></td>
+            </tr>
+            <tr>
+                <th>Player 5</th>
+                <td id="251"></td>
+                <td id="252"></td>
+                <td id="253"></td>
+                <td id="254"></td>
+                <td id="255"></td>
+                <td id="256"></td>
+            </tr>
+            <tr>
+                <th>Player 6</th>
+                <td id="261"></td>
+                <td id="262"></td>
+                <td id="263"></td>
+                <td id="264"></td>
+                <td id="265"></td>
+                <td id="266"></td>
+            </tr>
+            <tr>
+                <th>Player 7</th>
+                <td id="271"></td>
+                <td id="272"></td>
+                <td id="273"></td>
+                <td id="274"></td>
+                <td id="275"></td>
+                <td id="276"></td>
+            </tr>
+            <tr>
+                <th>Player 8</th>
+                <td id="281"></td>
+                <td id="282"></td>
+                <td id="283"></td>
+                <td id="284"></td>
+                <td id="285"></td>
+                <td id="286"></td>
+            </tr>
+            <tr>
+                <th>Player 9</th>
+                <td id="291"></td>
+                <td id="292"></td>
+                <td id="293"></td>
+                <td id="294"></td>
+                <td id="296"></td>
+                <td id="296"></td>
+            </tr>
+            <tr>
+                <th>Player 10</th>
+                <td id="2101"></td>
+                <td id="2102"></td>
+                <td id="2103"></td>
+                <td id="2104"></td>
+                <td id="2105"></td>
+                <td id="2106"></td>
+            </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+table,th,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding:5px;
+}
+th,td{
+    width:65px;
+}
+#winner{
+    color:red;
+}
