@@ -76,7 +76,7 @@ resultbtn.addEventListener('click',()=>{
         manscore.innerHTML=man1[1].toString();
     }
     else{
-        manmatch.innerHTML=man2[0].toString();
+        manmatch.innerHTML="Player"+(man2[0]+1).toString();
         manscore.innerHTML=man2[1].toString();
     }
 
